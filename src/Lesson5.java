@@ -24,12 +24,11 @@ public class Lesson5 {
         {
             System.out.println(" ");
             System.out.println("Задание №8");
-            int[][] array2D;
             System.out.print("Введите количество строк массива: ");
             int input = scanner.nextInt();
             System.out.print("Введите количество столбцов массива: ");
             int input1 = scanner.nextInt();
-            array2D = new int[input][input1];
+            int[][] array2D = new int[input][input1];
             for (int i = 0; i < array2D.length; i++) {
                 for (int j = 0; j < array2D[i].length; j++) {
                     System.out.print("Введите число для заполнения массива: ");
