@@ -6,10 +6,9 @@ public class Lesson5 {
         //task7
         {
             System.out.println("Задание №7");
-            int[] array;
             System.out.print("Введите размерность массива: ");
             int input = scanner.nextInt();
-            array = new int[input];
+            int[] array = new int[input];
             for (int i = 0; i < array.length; i++) {
                 System.out.print("Введите число для заполнения массива: ");
                 array[i] = scanner.nextInt();
@@ -54,7 +53,7 @@ public class Lesson5 {
                 System.out.print("Аргументы не введены!");
             } else {
                 for (String str : args) {
-                    a = a + Integer.parseInt(str);
+                    a += Integer.parseInt(str);
                 }
                 System.out.println("Сумма аргументов равна " + a);
             }
